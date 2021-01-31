@@ -1,0 +1,74 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0 auto;
+    font-family: 'Antic Slab', serif;
+    width: 900px;
+}
+
+body {
+    font-size: 1.2em;
+    background-color: #bfbfbf;
+    text-align: center;
+}
+
+#img-id {
+    background-color: #ffffff;
+    padding: 20px 0 20px 0;
+    border: 2px solid #7f7f7f;
+}
+
+#tribute-info {
+    width: 85%;
+}
+
+ul, 
+blockquote {
+    text-align: left;
+}
+   
+ul {
+    list-style-type: none;
+    position: relative;
+    left: 220px;
+    width: 60%;
+}
+
+ .quote {
+     width: 100%;
+     padding: 20px 0 0 20px;
+     background-color: white;
+     padding-bottom: 15px;    
+     border: 2px solid #7f7f7f;
+ }
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: -10px;
+}
+
+
+
+footer {
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.quote p::before {
+    content: "\201C";
+}
+
+.quote p::after {
+    content: "\201D";
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        width: 65%;
+    }
+}
